@@ -1,0 +1,4 @@
+ID,Patient Name,Age,Tumor Size,Grade,ER,PR,HER2,Predicted Action
+6IMIJ,johnny,45.0,23.0,2,1,1,0,Avoid Chemotherapy
+WVPQV,suhas,66.0,4.0,1,1,0,0,Avoid Chemotherapy
+DNNLC,suhas,33.0,33.0,1,1,0,1,Avoid Chemotherapy

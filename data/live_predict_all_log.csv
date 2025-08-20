@@ -1,0 +1,10 @@
+ID,Patient Name,Age,Tumor Size,Grade,ER,PR,HER2,Predicted Action
+N50K3,viveka,44.0,34.0,2,1,1,1,Chemotherapy and Radiotherapy
+2BFXD,manoj,45.0,33.0,1,1,0,1,Chemotherapy and Radiotherapy
+NNJ1O,Kruthika,45.0,12.0,2,0,0,1,Radiotherapy
+NSD6D,John martin,33.0,11.0,1,0,0,1,Radiotherapy
+ZVLI8,william rodri,33.0,11.0,1,0,1,0,Radiotherapy
+5H24Y,suhas,66.0,4.0,1,1,0,0,Chemotherapy and Radiotherapy
+V8Z3L,yashas,33.0,33.0,1,1,0,1,"Chemotherapy, Radiotherapy and Hormone Therapy"
+MF0OX,Tejas,27.0,48.0,2,1,0,1,"Chemotherapy, Radiotherapy and Hormone Therapy"
+A4ZFU,prateek,28.0,10.0,1,0,0,1,Radiotherapy
