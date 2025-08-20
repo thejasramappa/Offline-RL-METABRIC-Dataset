@@ -1,14 +1,9 @@
+# render.yaml example
 services:
   - type: web
-    name: offline-rl-backend
-    env: python
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
-
-  - type: web
-    name: offline-rl-frontend
+    name: frontend
     env: node
-    rootDir: frontend
-    buildCommand: npm install && npm run build
+    plan: free
+    buildCommand: npm run build
     startCommand: npm start
+    nodeVersion: 18
