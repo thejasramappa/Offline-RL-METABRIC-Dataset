@@ -23,7 +23,7 @@ By leveraging **historical patient data**, we develop a **data-driven, interpret
 ## 🧠 Key Features
 - Implementation of **Offline Reinforcement Learning** using **d3rlpy**
 - Utilizes **Discrete Conservative Q-Learning (CQL)** algorithm
-- Processes and analyzes **2,500+ patient records** from the METABRIC dataset
+- Processes and analyzes **25,000+ patient records** from the METABRIC dataset
 - **Flask API** for backend model inference and integration
 - **ReactJS** frontend for interactive visualization and prediction results
 - Ensures **model reproducibility, interpretability, and clinical relevance**
