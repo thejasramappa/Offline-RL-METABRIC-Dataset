@@ -39,5 +39,14 @@ By leveraging **historical patient data**, we develop a **data-driven, interpret
 - **Node.js (Latest)** → Required for React Development Server
 
 
-from d3rlpy.algos import DiscreteCQL, DiscreteCQLConfig
+# ⚡ Installation & Setup
+
+Follow the steps below to set up and run the **Offline Reinforcement Learning for Breast Cancer Treatment Optimization** project on your local machine.
+
+## **2. Clone the Repository**
+```bash
+git clone https://github.com/thejasramappa/Offline-RL-METABRIC-Dataset.git
+cd Offline-RL-METABRIC-Dataset
+
+
 
