@@ -9,7 +9,7 @@
 ---
 
 ## 📌 Project Overview
-This project investigates the use of **Offline Reinforcement Learning (RL)** techniques to optimize **personalized breast cancer treatment decisions** using the **METABRIC clinical dataset**.  
+Offline-RL-METABRIC-Dataset applies Offline Reinforcement Learning using the METABRIC breast cancer dataset to optimize treatment strategies. Implements Conservative Q-Learning (CQL) with d3rlpy, modeling clinical features as states, treatments as actions, and survival outcomes as rewards for better therapy recommendations. This project investigates the use of **Offline Reinforcement Learning (RL)** techniques to optimize **personalized breast cancer treatment decisions** using the **METABRIC clinical dataset**.  
 
 The system frames the clinical decision-making process as a **Markov Decision Process (MDP)**:
 - **States** → Patient clinical features (e.g., tumor size, receptor status, age)
@@ -38,11 +38,6 @@ By leveraging **historical patient data**, we develop a **data-driven, interpret
 - **ReactJS** → Frontend Interface
 - **Node.js (Latest)** → Required for React Development Server
 
-### **Python Libraries**
-```python
-import pandas as pd
-import numpy as np
-import pickle
-from d3rlpy.dataset import MDPDataset
+
 from d3rlpy.algos import DiscreteCQL, DiscreteCQLConfig
 
