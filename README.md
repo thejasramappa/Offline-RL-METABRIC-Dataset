@@ -43,10 +43,143 @@ By leveraging **historical patient data**, we develop a **data-driven, interpret
 
 Follow the steps below to set up and run the **Offline Reinforcement Learning for Breast Cancer Treatment Optimization** project on your local machine.
 
+---
+
+## **1. Prerequisites**
+
+Before you begin, make sure you have the following installed:
+
+* **Node.js** (Latest version) → [Download here](https://nodejs.org/)
+* **Python 3.12+** → [Download here](https://www.python.org/)
+* **pip** → Comes with Python 3.12+
+* **Git** → [Download here](https://git-scm.com/)
+
+---
+
 ## **2. Clone the Repository**
+
 ```bash
 git clone https://github.com/thejasramappa/Offline-RL-METABRIC-Dataset.git
 cd Offline-RL-METABRIC-Dataset
+```
+
+---
+
+## **3. Setup Frontend (ReactJS)**
+
+Open a terminal and run:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+* Installs all frontend dependencies.
+* Starts React app on **[http://localhost:3000](http://localhost:3000)**.
+
+---
+
+## **4. Setup Backend (Flask API)**
+
+Open a **new terminal** and run:
+
+```bash
+cd backend
+pip install -r requirements.txt
+python server.py
+```
+
+* Installs Python dependencies.
+* Starts Flask API on **[http://localhost:5000](http://localhost:5000)**.
+
+---
+
+## **5. Running the Application**
+
+1. Start the **backend server**:
+
+   ```bash
+   cd backend
+   python server.py
+   ```
+2. Start the **frontend server**:
+
+   ```bash
+   cd frontend
+   npm start
+   ```
+3. Open your browser → **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## **6. Folder Structure**
+
+```
+Offline-RL-METABRIC-Dataset/
+│── frontend/           # ReactJS frontend
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+│── backend/            # Flask backend
+│   ├── server.py       # Flask app entry point
+│   ├── model.pkl       # Trained RL model
+│   ├── requirements.txt
+│
+│── data/               # METABRIC dataset (not included)
+│── README.md
+```
+
+---
+
+## **7. Important Notes**
+
+* Use **Python 3.12** for compatibility.
+* Use **latest Node.js** for React setup.
+* Always start **backend** first, then **frontend**.
+* **Dataset** is not included due to privacy constraints.
+
+---
+
+## **8. Troubleshooting**
+
+| Issue                           | Solution                                                         |
+| ------------------------------- | ---------------------------------------------------------------- |
+| `npm start` not working         | Delete `node_modules` + `package-lock.json` → run `npm install`. |
+| `ModuleNotFoundError` in Python | Run `pip install -r requirements.txt`.                           |
+| Flask server error              | Use **Python 3.12** and check `server.py`.                       |
+| Blank React screen              | Stop server (`Ctrl+C`) → run `npm start` again.                  |
+
+---
+
+## **9. API Endpoints**
+
+**Base URL:** `http://localhost:5000`
+
+| Endpoint   | Method | Description                   |
+| ---------- | ------ | ----------------------------- |
+| `/predict` | POST   | Get treatment recommendations |
+| `/train`   | POST   | Train RL model on dataset     |
+| `/status`  | GET    | Check backend API health      |
+
+---
+
+## **10. Next Steps**
+
+* Load your patient data via the UI.
+* Explore personalized treatment recommendations.
+* Extend support for new datasets and RL algorithms.
+
+---
+
+## **11. Contact**
+
+**Author**: Thejas Ramappa
+📌 MSc Information Technology
+📩 For any queries, open an **issue** or reach out via **GitHub**.
+
+---
 
 
 
