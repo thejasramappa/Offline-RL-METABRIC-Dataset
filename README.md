@@ -113,27 +113,8 @@ python server.py
 
 ---
 
-## **6. Folder Structure**
 
-```
-Offline-RL-METABRIC-Dataset/
-│── frontend/           # ReactJS frontend
-│   ├── public/
-│   ├── src/
-│   └── package.json
-│
-│── backend/            # Flask backend
-│   ├── server.py       # Flask app entry point
-│   ├── model.pkl       # Trained RL model
-│   ├── requirements.txt
-│
-│── data/               # METABRIC dataset (not included)
-│── README.md
-```
-
----
-
-## **7. Important Notes**
+## **6. Important Notes**
 
 * Use **Python 3.12** for compatibility.
 * Use **latest Node.js** for React setup.
@@ -142,7 +123,7 @@ Offline-RL-METABRIC-Dataset/
 
 ---
 
-## **8. Troubleshooting**
+## **7. Troubleshooting**
 
 | Issue                           | Solution                                                         |
 | ------------------------------- | ---------------------------------------------------------------- |
@@ -153,27 +134,10 @@ Offline-RL-METABRIC-Dataset/
 
 ---
 
-## **9. API Endpoints**
 
-**Base URL:** `http://localhost:5000`
 
-| Endpoint   | Method | Description                   |
-| ---------- | ------ | ----------------------------- |
-| `/predict` | POST   | Get treatment recommendations |
-| `/train`   | POST   | Train RL model on dataset     |
-| `/status`  | GET    | Check backend API health      |
 
----
-
-## **10. Next Steps**
-
-* Load your patient data via the UI.
-* Explore personalized treatment recommendations.
-* Extend support for new datasets and RL algorithms.
-
----
-
-## **11. Contact**
+## **8. Contact**
 
 **Author**: Thejas Ramappa
 📌 MSc Information Technology
